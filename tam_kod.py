@@ -44,9 +44,8 @@ IQR = Q3 - Q1
 df = df[(df["price"] >= Q1 - 1.5 * IQR) &
         (df["price"] <= Q3 + 1.5 * IQR)]
 
-# =========================
 # FEATURE ENGINEERING
-# =========================
+
 
 # Nonlinear features
 df["m2_squared"] = df["m2"] ** 2

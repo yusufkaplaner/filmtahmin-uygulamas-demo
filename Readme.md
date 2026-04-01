@@ -1,4 +1,4 @@
-Rental Price Prediction Project
+Rental Price Prediction Project v1 
 Overview
 
 This project predicts rental apartment prices using machine learning.
